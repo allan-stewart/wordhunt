@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml"
+				xmlns="*"
+				creationComplete="onCreationComplete()">
+	
+	<mx:Script>
+		<![CDATA[
+			
+			import controller.AppController;
+            
+            private var mainController:AppController;
+			
+			// Create the main controller which will do the work.
+			private function onCreationComplete():void {
+  				mainController = new AppController();
+  			}
+			
+		]]>
+	</mx:Script>
+    
+</mx:Application>
